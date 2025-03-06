@@ -4,6 +4,7 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 alias c='clear'
 alias lzg='lazygit'
 alias l='ll'
+alias chz='chezmoi'
 
 #Yazi
 function y
@@ -28,6 +29,8 @@ set -gx GPG_TTY (tty)
 function fish_greeting
 end
 
+#Binds
 function fish_user_key_bindings
 	bind ctrl-g 'lazygit' repaint
+	bind ctrl-q 'exit'
 end
