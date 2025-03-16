@@ -31,6 +31,6 @@ end
 
 #Binds
 function fish_user_key_bindings
-	bind ctrl-g 'stty sane; lazygit' repaint
+	bind ctrl-g 'lazygit' repaint
 	bind ctrl-q 'exit'
 end
