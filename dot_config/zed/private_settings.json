@@ -21,24 +21,7 @@
     "light": "One Light",
     "dark": "Tokyo Night Storm"
   },
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 1000
-    }
-  },
-  "edit_predictions": {
-    "disabled_globs": ["**/**.*"]
-  },
-  "tabs": {
-    "file_icons": true
-  },
-  "toolbar":{
-    "breadcrumbs": false,
-    "quick_actions": false
-  },
-  "terminal": {
-    "toolbar":{
-      "breadcrumbs": false
-    }
+  "features": {
+    "edit_prediction_provider": "none"
   }
 }
